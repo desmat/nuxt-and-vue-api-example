@@ -1,0 +1,7 @@
+{
+    "vue.format.wrapAttributes": "force-expand-multiline",
+    "html.format.wrapAttributes": "force-expand-multiline",
+    "html.format.wrapAttributesIndentSize": 2,
+    "eslint.useFlatConfig": true,
+    "editor.formatOnSave": true
+}
