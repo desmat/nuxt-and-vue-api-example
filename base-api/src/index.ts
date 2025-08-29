@@ -4,6 +4,7 @@ class ApiBase {
   fetch: any;
 
   constructor(opts: any) {
+    // @ts-ignore
     const myFetch = globalThis.$fetch || ofetch;
     this.fetch = myFetch.create(opts);
   }

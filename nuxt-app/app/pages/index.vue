@@ -38,6 +38,8 @@
   setup
   lang="ts"
 >
+import { ThingApi } from "base-api"
+
 const TOKEN = "AUTH_TOKEN";
 
 const baseURL = ""; // if in nuxt we can do this

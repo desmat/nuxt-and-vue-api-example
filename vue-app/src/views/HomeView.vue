@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ofetch } from "ofetch"; 
 import { ref, onMounted, watch } from 'vue';
-import { ThingApi } from "@/utils/api";
+import { ThingApi } from "base-api";
 
 const TOKEN = "AUTH_TOKEN";
 
